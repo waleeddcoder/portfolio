@@ -212,6 +212,25 @@ img {
 .btn.small {
   padding: 0.7rem 1.8rem;
   font-size: 1rem;
+
+}
+
+#myBtn {
+  padding: 0.7rem 1.8rem;
+  font-size: 1rem;
+  background-color: var(--main-color);
+  color: var(--light-one);
+  border-radius: 2rem;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: #FFC300;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 /* End Genral Styles */
