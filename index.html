@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barriecito&family=Fira+Sans&family=Roboto+Mono&family=Roboto:wght@900&family=Source+Code+Pro:wght@300&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <header id="header">
+      <div class="overlay overlay-lg">
+        <img src="pictures/square.png" class="shape square" alt="" />
+        <img src="pictures/circle.png" class="shape circle" alt="" />
+        <img src="pictures/half-circle.png" class="shape half-circle1" alt="" />
+        <img src="pictures/half-circle.png" class="shape half-circle2" alt="" />
+        <img src="pictures/x.png" class="shape xshape" alt="" />
+        <img src="pictures/wave.png" class="shape wave wave1" alt="" />
+        <img src="pictures/wave.png" class="shape wave wave2" alt="" />
+        <img src="pictures/triangle.png" class="shape triangle" alt="" />
+        <img src="pictures/points1.png" class="points points1" alt="" />
+      </div>
+
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="pictures/swlogo.png" alt="" />
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#hireme" class="active">Hire me</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">Shahzeb Awan</h1>
+            <p class="text">
+              Hello, I'm Shahzeb Awan, a web designer and developer. I blend creativity and code to craft captivating
+              online experiences that leave a lasting impact. Let's turn your ideas into pixel-perfect reality together.
+            </p>
+            <a href="cv.pdf" download class="btn">Download CV</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="pictures/points2.png" class="points points2" alt="" />
+            <img src="pictures/devpic3.jpg" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="What I Do">Services</h3>
+          <p class="text">
+            Boost your online presence with our comprehensive range of web development services tailored to your
+            unique needs.
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="card-wrap">
+            <img src="pictures/points3.png" class="points points1 points-sq" alt="" />
+            <div class="card" data-card="UI/UX">
+              <div class="card-content z-index">
+                <img src="pictures/design-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">Web Design</h3>
+                <p class="text">
+                  Elevate your brand with captivating web designs that leave a lasting impression.
+                </p>
+                <a href="https://wa.me/+923331570071" class="btn small">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <div class="card" data-card="Code">
+              <div class="card-content z-index">
+                <img src="pictures/code-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">Web Development</h3>
+                <p class="text">
+                  Unlock digital potential with tailored web solutions that fuse creativity and technology.
+                </p>
+                <a href="https://wa.me/+923331570071" class="btn small">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-wrap">
+            <img src="pictures/points3.png" class="points points2 points-sq" alt="" />
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="pictures/app-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">App Development</h3>
+                <p class="text">
+                  Crafting tailored apps to elevate user experiences through seamless functionality and innovative
+                  design.
+                </p>
+                <a href="https://wa.me/+923331570071" class="btn small">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <img src="pictures/points3.png" class="points points2 points-sq" alt="" />
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="pictures/webapp-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">Custom Web Applications</h3>
+                <p class="text">
+                  Building Tailored Web Solutions for Your Unique Business Requirements. Elevate Your Online Presence.
+                </p>
+                <a href="https://wa.me/+923331570071" class="btn small">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <img src="pictures/points3.png" class="points points2 points-sq" alt="" />
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="pictures/web-maintenance-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">Web Maintenance and Support</h3>
+                <p class="text">
+                  Nurturing websites with updates and security, ensuring digital presence remains seamless.
+                </p>
+                <a href="https://wa.me/+923331570071" class="btn small">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-wrap">
+            <img src="pictures/points3.png" class="points points2 points-sq" alt="" />
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="pictures/wordpress-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">WordPress Development</h3>
+                <p class="text">
+                  Crafting Powerful Websites: Expertise in Tailored WordPress Solutions for Your Business.
+                </p>
+                <a href="https://wa.me/+923331570071" class="btn small">Learn more</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card-wrap">
+            <img src="pictures/points3.png" class="points points2 points-sq" alt="" />
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="pictures/training-icon.png" class="icon" alt="" />
+                <h3 class="title-sm">Personalized Trainings</h3>
+                <p class="text">
+                  Discover tailored learning sessions for programming and development. From Python to Java, our
+                  expert-led 'Personalized Trainings' suit all levels. Unleash your potential, visit my teaching website
+                  below.
+                </p>
+                <a href="https://waleeddcoder.github.io/concepta.com/website.html" target="_blank"
+                  class="btn small">Visit</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="background-bg">
+        <div class="overlay overlay-sm">
+          <img src="pictures/half-circle.png" class="shape half-circle1" alt="" />
+          <img src="pictures/half-circle.png" class="shape half-circle2" alt="" />
+          <img src="pictures/square.png" class="shape square" alt="" />
+          <img src="pictures/wave.png" class="shape wave" alt="" />
+          <img src="pictures/circle.png" class="shape circle" alt="" />
+          <img src="pictures/triangle.png" class="shape triangle" alt="" />
+          <img src="pictures/x.png" class="shape xshape" alt="" />
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="My works">Portfolio</h3>
+        </div>
+
+        <div class="section-body">
+          <div class="filter">
+            <button class="filter-btn active" data-filter="*">All</button>
+            <button class="filter-btn" data-filter=".ui">UI/UX</button>
+            <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+            <button class="filter-btn" data-filter=".appdev">
+              Mobile App
+            </button>
+            <button class="filter-btn" data-filter=".logo-design">
+              Logo Design
+            </button>
+          </div>
+
+          <div class="grid">
+            <div class="grid-item logo-design">
+              <div class="gallery-image">
+                <img src="pictures/port1.jpg" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Logo Design</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item webdev">
+              <div class="gallery-image">
+                <img src="pictures/port2.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Web Development</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item ui webdev">
+              <div class="gallery-image">
+                <img src="pictures/port3.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Web Design</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item ui">
+              <div class="gallery-image">
+                <img src="pictures/port4.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>UI / UX Design</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item logo-design">
+              <div class="gallery-image">
+                <img src="pictures/port5.jpg" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Logo Design</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item appdev">
+              <div class="gallery-image">
+                <img src="pictures/port6 (2).jpg" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>App Development</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item logo-design">
+              <div class="gallery-image">
+                <img src="pictures/port7.png" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Logo Design</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item appdev ui">
+              <div class="gallery-image">
+                <img src="pictures/port8.jpg" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>App Development</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item ui webdev">
+              <div class="gallery-image">
+                <img src="pictures/port9.jpg" alt="" />
+                <div class="img-overlay">
+                  <div class="plus"></div>
+                  <div class="img-description">
+                    <h3>Web Design</h3>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Who Am I">About me</h3>
+        </div>
+
+        <div class="section-body grid-2">
+          <div class="column-1">
+            <h3 class="title-sm">Hello, I'm</h3>
+            <p class="text">
+              Shahzeb Awan – a dedicated web designer and developer. With an eye for detail and a commitment to
+              excellence.
+            </p>
+            <div class="skills">
+              <div class="skill html">
+                <h3 class="skill-title">HTML</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90%"></div>
+                </div>
+              </div>
+              <div class="skill css">
+                <h3 class="skill-title">CSS</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="70%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">JavaScript</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">React</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="75%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">Adobe XD</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="65%"></div>
+                </div>
+              </div>
+              <div class="skill js">
+                <h3 class="skill-title">WordPress</h3>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80%"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="column-2 image">
+            <img src="pictures/points4.png" class="points" alt="" />
+            <img src="pictures/aboutdp2.jpeg" class="z-index" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="records">
+      <div class="overlay overlay-sm">
+        <img src="pictures/square.png" alt="" class="shape square1" />
+        <img src="pictures/square.png" alt="" class="shape square2" />
+        <img src="pictures/circle.png" alt="" class="shape circle" />
+        <img src="pictures/half-circle.png" alt="" class="shape half-circle" />
+        <img src="pictures/wave.png" alt="" class="shape wave wave1" />
+        <img src="pictures/wave.png" alt="" class="shape wave wave2" />
+        <img src="pictures/x.png" alt="" class="shape xshape" />
+        <img src="pictures/triangle.png" alt="" class="shape triangle" />
+      </div>
+
+      <div class="container">
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="235">0</h2>
+            <h4 class="sub-title">Projects</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle active">
+            <h2 class="number" data-num="174">0</h2>
+            <h4 class="sub-title">Happy Clients</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="892">0</h2>
+            <h4 class="sub-title">Work Hour</h4>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="record-circle">
+            <h2 class="number" data-num="368">0</h2>
+            <h4 class="sub-title">Awards</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog section">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="Latest News">Blogs</h3>
+          <p class="text">
+            Get an insight on the latest trends in the developer's world.
+          </p>
+        </div>
+
+        <div class="blog-wrapper">
+          <div class="blog-wrap">
+            <img src="pictures/points3.png" alt="" class="points points-sq" />
+
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="pictures/blog1.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">March, 19 2023</h5>
+                  <h5 class="blog-user"><i class="fas fa-user"></i>PixelPundit</h5>
+                </div>
+                <h3 class="title-sm">The Power of Responsive Web Design</h3>
+                <p class="blog-text">
+                  In an era where people access the internet through a multitude of devices, responsive web design has
+                  emerged as a game-changer. This blog explores how responsive design adapts your website's layout to
+                  different screen sizes, providing a seamless user experience and boosting engagement. <br> Responsive
+                  web design is not just a trend; it's a necessity. As smartphones, tablets, and various screen sizes
+                  become the norm, websites need to ensure that they look and function flawlessly across all devices.
+                  Enter responsive design, a technique that allows your website to respond dynamically to the user's
+                  device, screen size, and orientation.
+
+                  One of the key advantages of responsive design is its ability to create a consistent and user-friendly
+                  experience. Rather than having separate mobile and desktop sites, a responsive website automatically
+                  adjusts its layout, fonts, images, and buttons to provide optimal viewing regardless of the screen
+                  size. This not only enhances usability but also reduces bounce rates, keeping visitors engaged.
+
+                  Responsive design also has a positive impact on search engine rankings. Search engines like Google
+                  prioritize mobile-friendly websites, so a responsive design can boost your website's visibility in
+                  search results, driving organic traffic.
+
+                  As user expectations continue to evolve, responsive design has become a standard practice in web
+                  development. By embracing this approach, you ensure that your website stays relevant, accessible, and
+                  user-centered in an increasingly digital world.
+
+                </p>
+                <a href="#" class="btn small">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="pictures/blog2.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">August, 02 2023</h5>
+                  <h5 class="blog-user"><i class="fas fa-user"></i>ElixirWords
+                  </h5>
+                </div>
+                <h3 class="title-sm">E-Commerce Essentials: Building Your Online Store</h3>
+                <p class="blog-text">
+                  The world of e-commerce is ever-evolving, and establishing a successful online store requires careful
+                  planning. In this blog, we delve into the key elements of building an e-commerce platform that not
+                  only showcases your products effectively but also provides a secure and user-friendly shopping
+                  experience. <br>
+                  The digital marketplace has transformed the way we shop, and creating a compelling online store has
+                  become essential for businesses of all sizes. However, building an e-commerce platform goes beyond
+                  simply listing products online. It's about creating an immersive shopping journey that resonates with
+                  customers and drives conversions.
+
+                  At the heart of every successful e-commerce venture is a well-designed user interface (UI) that guides
+                  visitors seamlessly through the store. Intuitive navigation, clear product categories, and prominent
+                  calls-to-action are fundamental aspects that contribute to a positive user experience. Additionally,
+                  high-quality images, detailed product descriptions, and customer reviews enhance the credibility of
+                  your offerings.
+
+                  Security is paramount in e-commerce. Implementing SSL certificates and secure payment gateways
+                  instills trust among customers, assuring them that their personal and financial information is safe.
+                  Furthermore, an efficient checkout process minimizes cart abandonment, making it easy for customers to
+                  complete their purchase.
+
+                  Personalization is another key trend in e-commerce. Tailoring product recommendations based on user
+                  behavior and preferences can significantly boost cross-selling and upselling opportunities. By
+                  understanding your customers' needs, you can curate a shopping experience that resonates with them on
+                  a deeper level.
+
+                  Ultimately, a successful e-commerce platform goes beyond transactions; it's about building lasting
+                  relationships with customers. By focusing on user experience, security, and personalization, you can
+                  create an online store that not only sells products but also fosters brand loyalty.
+
+                </p>
+                <a href="#" class="btn small">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="pictures/blog3.png" alt="" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">June, 12 2023</h5>
+                  <h5 class="blog-user"><i class="fas fa-user"></i>EchoVerse
+                  </h5>
+                </div>
+                <h3 class="title-sm">Unveiling the Magic Behind UX/UI Design</h3>
+                <p class="blog-text">
+                  User Experience (UX) and User Interface (UI) design are the cornerstones of a captivating website.
+                  This blog takes you on a journey through the art and science of creating visually appealing designs
+                  that prioritize user needs, enhance usability, and contribute to the overall success of your web
+                  project. <br> When you interact with a website that's intuitive, visually appealing, and easy to
+                  navigate, you're experiencing the results of effective User Experience (UX) and User Interface (UI)
+                  design. These design disciplines play a crucial role in creating websites that resonate with users and
+                  leave a lasting impression.
+
+                  UX design focuses on the overall feel of the website, ensuring that it's user-centered and aligns with
+                  the needs and expectations of the target audience. This involves understanding user behavior,
+                  conducting research, and creating user personas to tailor the design to different user segments. By
+                  mapping out user journeys, designers can identify pain points and optimize the website's structure and
+                  flow for a seamless experience.
+
+                  UI design, on the other hand, deals with the visual elements that users interact with. This includes
+                  typography, color schemes, icons, buttons, and other design elements that contribute to the aesthetic
+                  appeal of the website. UI designers carefully craft layouts that guide users' attention and make
+                  navigation intuitive. By creating a consistent and visually pleasing interface, UI design enhances
+                  usability and ensures a cohesive brand identity.
+
+                  The magic happens when UX and UI design seamlessly intertwine. A well-designed interface is
+                  meaningless if it doesn't address user needs, and a user-centered design that lacks visual appeal
+                  might not capture users' attention. The sweet spot lies in finding the balance between form and
+                  function.
+
+                  In today's competitive digital landscape, investing in UX/UI design is no longer a luxury—it's a
+                  necessity. By prioritizing user needs, creating engaging visual experiences, and constantly refining
+                  design based on feedback, you can create websites that not only meet user expectations but exceed
+                  them, leaving a positive and lasting impression.
+
+                  ---
+
+                  Feel free to adapt these blog posts according to your writing style, add more details, and tailor them
+                  to your expertise and target audience.
+
+                </p>
+                <a href="#" class="btn small">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="title" data-title="What People Say">Testimonials</h3>
+        </div>
+
+        <div class="testi-content grid-2">
+          <div class="column-1 reviews">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide review">
+                  <i class="fas fa-quote-left quote"></i>
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    Working with Shahzeb was a breath of fresh air. His dedication to detail and commitment to bringing
+                    our vision to life was truly remarkable. From the initial concept to the final product, his
+                    expertise and professionalism shone through. Our website now not only looks stunning but also
+                    functions flawlessly. Highly recommended!!
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Matias Butt</h3>
+                    <h5 class="review-job">Photographer, Paris</h5>
+                  </div>
+                </div>
+
+                <div class="swiper-slide review">
+                  <i class="fas fa-quote-left quote"></i>
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    Collaborating with Mr. Awan was an absolute pleasure. Their in-depth knowledge of web development
+                    and design is matched only by their creativity and innovation. The end result exceeded our
+                    expectations, and we look forward to continuing our partnership for future projects.
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Romeo Herbert</h3>
+                    <h5 class="review-job">CEO, Munich</h5>
+                  </div>
+                </div>
+
+                <div class="swiper-slide review">
+                  <i class="fas fa-quote-left quote"></i>
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    I've had the privilege of working with Shahzeb Awan on multiple occasions, and each time has been an
+                    exceptional experience. Their ability to grasp our requirements and translate them into stunning web
+                    solutions is truly commendable. The team's responsiveness, attention to detail, and on-time delivery
+                    make them my go-to choice for web development."
+
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Jack Costa</h3>
+                    <h5 class="review-job">Director of THR, London</h5>
+                  </div>
+                </div>
+
+                <div class="swiper-slide review">
+                  <i class="fas fa-quote-left quote"></i>
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    I couldn't be happier with the results this guy delivered. Their expertise in web design and
+                    development is evident in the sleek and functional website he created for us. Their communication,
+                    responsiveness, and creative approach made the entire process smooth and enjoyable.
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Reiss Mccartney</h3>
+                    <h5 class="review-job">Engineer, San Francisco</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="review-nav swiper-button-prev">
+                <i class="fas fa-long-arrow-alt-left"></i>
+              </div>
+              <div class="review-nav swiper-button-next">
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-2 image">
+            <img src="pictures/testi.png" alt="" class="img-element" />
+          </div>
+        </div>
+      </div>
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <h3 class="title">Get in touch</h3>
+            <p class="text">
+              Ready to transform your digital presence? Let's collaborate and bring your vision to life. Reach out to us
+              today and let's embark on a journey of creativity and innovation.
+            <div class="information-wrap">
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p class="info-text">92 Eastern Drive, Riverdale, NY</p>
+              </div>
+
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+                <p class="info-text">www.concepta.com</p>
+              </div>
+
+              <div class="information">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="info-text">+92-333-157-0071</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3 class="title">Contact me</h3>
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="First Name" />
+              <input type="text" class="contact-input" placeholder="Last Name" />
+            </div>
+
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="Phone" />
+              <input type="email" class="contact-input" placeholder="Email" />
+            </div>
+
+            <div class="row">
+              <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+            </div>
+            <a href="https://wa.me/+923331570071" class="btn">Send</a>
+          </div>
+        </div>
+      </div>
+      <div class="back-btn-wrap">
+        <a href="#" class="back-btn">
+          <i class="fas fa-chevron-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="hireme" id="hireme">
+      <div class="container">
+        <h3 class="title">Let's talk about a project</h3>
+        <p class="text">
+          Your project is our canvas, and your vision is our masterpiece. Let's embark on a creative journey together
+          and bring your ideas to life.
+        </p>
+        <a href="https://wa.me/+923331570071" class="btn">Hire me</a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid-4">
+        <div class="grid-4-col footer-about">
+          <h3 class="title-sm">About</h3>
+          <p class="text">
+            Crafting Digital Experiences that Captivate and Innovate
+          </p>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="title-sm">Links</h3>
+          <ul>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+              <a href="https://waleeddcoder.github.io/concepta.com/website.html" target="_blank">Concepta.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="title-sm">Services</h3>
+          <ul>
+            <li>
+              <a href="#services">Web Design</a>
+            </li>
+            <li>
+              <a href="#services">App Design</a>
+            </li>
+            <li>
+              <a href="#services">Web Dev</a>
+            </li>
+            <li>
+              <a href="#services">WordPress</a>
+            </li>
+            <li>
+              <a href="#services">UI/UX</a>
+            </li>
+
+
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-newstletter">
+          <h3 class="title-sm">Subscribe</h3>
+          <p class="text">
+            Stay in the loop with our latest updates, industry insights, and exclusive offers by subscribing to our
+            newsletter. </p>
+          <div class="footer-input-wrap">
+            <input type="email" class="footer-input" placeholder="Email" />
+            <a href="" class="input-arrow">
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p class="text">
+            Copyright&copy;2023 All rights reserved | Made by
+            <span>Shahzeb Waleed</span>
+          </p>
+        </div>
+
+        <div class="followme-wrap">
+          <div class="followme">
+            <h3>Follow me</h3>
+            <span class="footer-line"></span>
+            <div class="social-media">
+
+
+              <a href="https://github.com/waleeddcoder">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/shahzeb__awan/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://youtube.com/@srbsw">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/shahzeb-waleed-3a2403195/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="back-btn-wrap">
+            <a href="#" class="back-btn">
+              <i class="fas fa-chevron-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
