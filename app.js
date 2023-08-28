@@ -101,18 +101,38 @@ var mySwiper = new Swiper(".swiper-container", {
         nextEl: ".swiper-button-next",
     },
 });
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+var currentlyOpen = null;
 
-    if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-    } else {
+function myFunction(instance) {
+    var dots = document.getElementById("dots" + instance);
+    var moreText = document.getElementById("more" + instance);
+    var btnText = document.getElementById("myBtn" + instance);
+
+    if (instance !== currentlyOpen) {
+        if (currentlyOpen !== null) {
+            var prevDots = document.getElementById("dots" + currentlyOpen);
+            var prevMoreText = document.getElementById("more" + currentlyOpen);
+            var prevBtnText = document.getElementById("myBtn" + currentlyOpen);
+
+            prevDots.style.display = "inline";
+            prevBtnText.innerHTML = "Read more";
+            prevMoreText.style.display = "none";
+        }
+
+        currentlyOpen = instance;
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
         moreText.style.display = "inline";
+
+        // Scroll to the content
+        moreText.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+        currentlyOpen = null;
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+
+        // Scroll back to the button
+        btnText.scrollIntoView({ behavior: "smooth", block: "end" });
     }
 }
